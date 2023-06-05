@@ -9,8 +9,8 @@ import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 
 // components
-// import PostDetail from "../../components/";
-import PostDetail from "../../components/PostDetail"
+import PostDetail from "../../components/PostDetail/PostDetail";
+
 
 const Home = () => {
   const { documents: posts, loading } = useFetchDocuments("posts");
