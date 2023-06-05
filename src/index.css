@@ -2,14 +2,12 @@ body {
   background-color: #f6fcff;
   padding: 0;
   margin: 0;
-  font-family: "\montserrat", sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 input::placeholder,
 textarea::placeholder {
-  font-family: "\montserrat", sans-serif;
-  color: #aaa;
+  font-family: "Montserrat", sans-serif;
 }
 
 input:focus,
@@ -23,10 +21,10 @@ nav button {
   background-color: transparent;
   border: none;
   color: #000;
-  transition: .4s;
+  transition: 0.4s;
   font-size: 1em;
   cursor: pointer;
-  font-family: "\montserrat", sans-serif;
+  font-family: "Montserrat", sans-seri;
 }
 
 a:hover,
@@ -34,6 +32,7 @@ nav button:hover {
   color: #bbb;
 }
 
+/* form styles */
 form {
   max-width: 40%;
   margin: 0 auto;
@@ -46,18 +45,23 @@ label {
 }
 
 label span {
-  margin-top: 3em;
+  margin-bottom: 0.3em;
   font-weight: bold;
   text-align: left;
 }
 
-input, 
+input,
 textarea {
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #ccc;
-  padding: .8em 0;
+  padding: 0.8em 0em;
   background-color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
 }
 
 .btn {
